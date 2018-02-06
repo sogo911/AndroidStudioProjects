@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="본인 휴대전화번호를 입력해주세요."
+        android:textSize="23dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#7d9777"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="(+82) Republic of Korea"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/phone_num"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:hint="번호입력( - 포함 )"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:layout_gravity="center"
+        android:background="#fff307"
+        />
+    <TextView
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="카카오톡은 전화번호의 본인 사용 확인 및 부정사용 방지를 위하여 인증을 필요로 합니다."
+        android:textColor="#7d9777"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
